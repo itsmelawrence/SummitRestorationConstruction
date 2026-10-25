@@ -13,7 +13,7 @@ Open the local URL printed by Vite. Use `npm run build` for a production build i
 
 ## GitHub Pages preview
 
-The workflow in `.github/workflows/deploy-pages.yml` builds and publishes `dist/` whenever `main` is pushed. GitHub Pages must use **GitHub Actions** as its publishing source. The Vite source files in the repository root are not a deployable site.
+GitHub Pages publishes the compiled site from the root of the `gh-pages` branch. After committing changes to `main`, run `npm run deploy:pages` to build and publish the preview. Pushing `main` alone does not update the public preview. The Vite source files in the repository root are not a deployable site.
 
 ## Design plan
 
