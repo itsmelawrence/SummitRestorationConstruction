@@ -11,6 +11,10 @@ npm run dev
 
 Open the local URL printed by Vite. Use `npm run build` for a production build in `dist/`.
 
+## GitHub Pages preview
+
+The workflow in `.github/workflows/deploy-pages.yml` builds and publishes `dist/` whenever `main` is pushed. GitHub Pages must use **GitHub Actions** as its publishing source. The Vite source files in the repository root are not a deployable site.
+
 ## Design plan
 
 - **Visitor goal:** Give an Arizona property owner or manager a clear route from urgent damage to a conversation with Summit.

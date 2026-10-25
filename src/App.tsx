@@ -25,7 +25,7 @@ function PhoneIcon() {
 
 function SummitMark() {
   return (
-    <img className="brand-mark" src="/images/summit-logo.png" alt="" width="43" height="43" />
+    <img className="brand-mark" src={`${import.meta.env.BASE_URL}images/summit-logo.png`} alt="" width="43" height="43" />
   )
 }
 
@@ -135,7 +135,7 @@ function App() {
       <main id="main">
         <section id="top" className="hero" aria-labelledby="hero-heading">
           <div className="hero-photo">
-            <img src="/images/summit-crew-truck.jpg" alt="Summit Restoration truck and circular saw prepared for work" fetchPriority="high" />
+            <img src={`${import.meta.env.BASE_URL}images/summit-crew-truck.jpg`} alt="Summit Restoration truck and circular saw prepared for work" fetchPriority="high" />
           </div>
           <div className="hero-shade" aria-hidden="true" />
           <div className="page-container hero-content">
@@ -191,7 +191,7 @@ function App() {
 
         <section id="approach" className="approach-section" aria-labelledby="approach-heading">
           <div className="workshop-photo image-reveal" data-reveal>
-            <img src="/images/summit-workshop.jpg" alt="Summit workshop with cabinetry, construction tools, and a large worktable" loading="lazy" />
+            <img src={`${import.meta.env.BASE_URL}images/summit-workshop.jpg`} alt="Summit workshop with cabinetry, construction tools, and a large worktable" loading="lazy" />
             <div className="workshop-photo-overlay" aria-hidden="true" />
             <div className="workshop-caption page-container">
               <span>SUMMIT / WORKSHOP</span>
@@ -214,7 +214,7 @@ function App() {
 
         <section id="about" className="local-section" aria-labelledby="about-heading">
           <div className="local-photo image-reveal" data-reveal>
-            <img src="/images/summit-community-team.jpg" alt="Summit team members in a company vehicle in Phoenix" loading="lazy" />
+            <img src={`${import.meta.env.BASE_URL}images/summit-community-team.jpg`} alt="Summit team members in a company vehicle in Phoenix" loading="lazy" />
             <div className="local-photo-shade" aria-hidden="true" />
             <div className="page-container local-photo-text">
               <p className="eyebrow">04 / People behind the work</p>
