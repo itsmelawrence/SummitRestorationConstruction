@@ -104,14 +104,9 @@ em {
 .brand-mark {
   width: 43px;
   height: 43px;
-  display: grid;
-  place-items: center;
-  border: 2px solid currentColor;
   border-radius: 50%;
-}
-.brand-mark svg {
-  width: 29px;
-  height: 29px;
+  object-fit: cover;
+  flex: none;
 }
 .brand-type {
   display: flex;
@@ -990,10 +985,6 @@ em {
   .brand-mark {
     width: 36px;
     height: 36px;
-  }
-  .brand-mark svg {
-    width: 24px;
-    height: 24px;
   }
   .brand-type strong {
     font-size: 27px;

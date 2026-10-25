@@ -25,12 +25,7 @@ function PhoneIcon() {
 
 function SummitMark() {
   return (
-    <span className="brand-mark" aria-hidden="true">
-      <svg viewBox="0 0 44 44" fill="none">
-        <path d="M4 29.5 16.5 13l7.7 9.1 4.6-5.2L40 30.5" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round" />
-        <path d="M6 34h32" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" />
-      </svg>
-    </span>
+    <img className="brand-mark" src="/images/summit-logo.png" alt="" width="43" height="43" />
   )
 }
 
