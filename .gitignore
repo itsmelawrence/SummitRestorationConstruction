@@ -5,3 +5,7 @@ dist/
 skills-lock.json
 *.tsbuildinfo
 preview-*.png
+.env
+.env.*
+!.env.example
+*.log
